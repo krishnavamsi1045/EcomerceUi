@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="EcomerceUi.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:EcomerceUi"
+    xmlns:models="clr-namespace:EcomerceUi.Models"
+    xmlns:vm="clr-namespace:EcomerceUi.ViewModel"
+    xmlns:View="clr-namespace:EcomerceUi.View"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar>
+
+    
+
+        <ShellContent
+    Title="Home"
+    ContentTemplate="{DataTemplate local:MainPage}"
+    Route="MainPage" />
+
+        <ShellContent
+    Title="Home"
+    ContentTemplate="{DataTemplate local:MainPage}"
+    Route="MainPage" />
+
+        <ShellContent
+    Title="Home"
+    ContentTemplate="{DataTemplate local:MainPage}"
+    Route="MainPage" />
+
+        <ShellContent
+    Title="Home"
+    ContentTemplate="{DataTemplate local:MainPage}"
+    Route="MainPage" />
+
+        <ShellContent
+    Title="Home"
+    ContentTemplate="{DataTemplate local:MainPage}"
+    Route="MainPage" />
+
+    </TabBar>
+
+</Shell>
